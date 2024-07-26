@@ -5,6 +5,8 @@
 - [Checking the Version of a Global Package](#checking-the-version-of-a-global-package)  
     - [Listing all global packages](#listing-all-global-packages)  
     - [Checking specific package version of a globally](#checking-specific-package-version-of-a-globally)  
+- [Installing a single package](#installing-a-single-package)  
+- [Updating packages](#updating-packages)  
 
 ## Global node_modules directory  
 Takes you to the directory where your globally installed npm packages are located. 
@@ -15,7 +17,7 @@ cd $(npm root -g)
 ## Checking the Version of a Global Package  
 To check the version of a globally installed package, you can use the following command:  
 
-### Listing all global packages  
+### Lists all global packages  
 ```bash
 npm list -g
 ```  
@@ -40,6 +42,23 @@ npm list -g npm
 **Abbreviation**  
 ```bash 
 npm ls -g npm
+```  
+
+## Installing a single package  
+```bash
+npm install <package-name>
+```  
+
+## Updating packages  
+
+Updating is also made easy, by running
+```bash
+npm update
+```  
+
+You can specify a single package to update as well:
+```bash
+npm update <package-name>
 ```  
 
 
