@@ -7,6 +7,7 @@
     - [Checking specific package version of a globally](#checking-specific-package-version-of-a-globally)  
 - [Installing a single package](#installing-a-single-package)  
 - [Updating packages](#updating-packages)  
+- [Learn Node.js](#learn-nodejs)  
 
 ## Global node_modules directory  
 Takes you to the directory where your globally installed npm packages are located. 
@@ -60,5 +61,9 @@ You can specify a single package to update as well:
 ```bash
 npm update <package-name>
 ```  
+
+## Learn Node.js  
+- [Getting Started](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)  
+- [File system](https://nodejs.org/api/fs.html)  
 
 
