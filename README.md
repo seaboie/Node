@@ -8,6 +8,7 @@
 - [Installing a single package](#installing-a-single-package)  
 - [Updating packages](#updating-packages)  
 - [Learn Node.js](#learn-nodejs)  
+- [Working with folders in Node.js](#working-with-folders-in-nodejs)  
 
 ## Global node_modules directory  
 Takes you to the directory where your globally installed npm packages are located. 
@@ -66,6 +67,8 @@ npm update <package-name>
 - [Getting Started](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)  
 - [File system](https://nodejs.org/api/fs.html)  
 - [Path](https://nodejs.org/api/path.html)   
+
+## [Working with folders in Node.js](https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs)
 
 
 
