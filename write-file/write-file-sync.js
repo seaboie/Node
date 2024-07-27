@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const content =
-  "writing throughout jar kill leave daily needed extra desk younger orbit faster indicate pick sure beneath stage settlers feature build distance split terrible lot";
+  "writing throughout jar kill leave daily needed extra desk younger orbit faster indicate pick sure beneath stage settlers feature build distance split terrible lot\n";
 
 const currentPath = path.resolve('../write.txt');
 
