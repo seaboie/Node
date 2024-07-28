@@ -15,8 +15,7 @@ console.log(`🚀 🚀 🚀 ` + currentFolder);
             console.log(`🎉 🎉 🎉 ` + 'Successfully created directory..');
         } else {
             console.error(`🔥 🔥 🔥 🔥 🔥 Oops !!! : Have error `, err);
-        }
-        
+        }  
     }
 })();
 
